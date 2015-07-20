@@ -123,9 +123,6 @@ BOARD_SEPOLICY_UNION += \
     vold.te \
     whisperd.te
 
-# Block_Build
-Bliss_Build_Block := 1 
-
 # BlissPop Configs
 BLISS_WIPE_CACHES := 1
 BLISSIFY := true
@@ -137,11 +134,7 @@ BLISS_PIPE := true
 FLOOP_NEST_OPTIMIZE := true
 ENABLE_GCCONLY := true
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
-FAST_MATH := true
 ENABLE_MODULAR_O3 := true
-ENABLE_LTO := true
-Link_Time_Optimizations := true
-TARGET_USE_ION_COMPAT := true
 TARGET_USE_KRAIT_PLD_SET := true
 TARGET_TC_ROM := 4.8-linaro
 TARGET_TC_KERNEL := 4.8-linaro
